@@ -1,4 +1,5 @@
 ﻿  cppWeek1.cpp
-c:\users\rick\documents\visual studio 2015\projects\cppweek1\cppweek1\cppweek1.cpp(8): warning C4101: 'tijd': unreferenced local variable
+  Voertuig.cpp
+  Generating Code...
   cppWeek1.vcxproj -> C:\Users\Rick\documents\visual studio 2015\Projects\cppWeek1\Debug\cppWeek1.exe
   cppWeek1.vcxproj -> C:\Users\Rick\documents\visual studio 2015\Projects\cppWeek1\Debug\cppWeek1.pdb (Full PDB)
