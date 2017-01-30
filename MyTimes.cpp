@@ -18,14 +18,18 @@ void MyTimes::add(int hour, int min, int sec) {
 }
 
 bool MyTimes::equals(MyTimes & time) {
-	if ((time.h == h) && (time.m == m) && (time.s == s)) {
-		return true;
-	}
-	return false;	
+	return ((time.h == h) && (time.m == m) && (time.s == s));
 }
 
 void MyTimes::giveTime()
 {
-	// normalise();
+	normalise();
 	cout << h << " h " << m << " min " << s << " sec ";
+}
+
+void MyTimes::normalise() {
+	h += m / 60;
+	m %= 60;
+	m += s / 60;
+	s %= 60;
 }

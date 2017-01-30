@@ -6,12 +6,8 @@
 
 int main(void) {
 	MyTimes tijd;
-	MyTimes aTijd;
-
-	tijd.setTime(3, 40, 25);
-	aTijd.setTime(3, 40, 20);
-
-	cout << aTijd.equals(tijd) << endl;
+	tijd.setTime(3, 40, 119);
+	tijd.giveTime();
 	cin.get();
 }
 

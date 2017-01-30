@@ -16,5 +16,5 @@ public:
 	bool equals(MyTimes & time);
 
 private:
-	// void normalise(); // vb: 61 min 61 sec. ==> 1 h 2 min 1 sec
+	void normalise(); // vb: 61 min 61 sec. ==> 1 h 2 min 1 sec
 };
