@@ -18,13 +18,10 @@ void MyTimes::add(int hour, int min, int sec) {
 }
 
 bool MyTimes::equals(MyTimes & time) {
-	if (&time.h != &h) {
-		cout << &time.h << endl;
-		cout << &h << endl;
-		return false;
+	if ((time.h == h) && (time.m == m) && (time.s == s)) {
+		return true;
 	}
-	return true;	
-
+	return false;	
 }
 
 void MyTimes::giveTime()

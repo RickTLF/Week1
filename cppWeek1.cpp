@@ -8,12 +8,10 @@ int main(void) {
 	MyTimes tijd;
 	MyTimes aTijd;
 
-	tijd.setTime(3, 20, 45);
+	tijd.setTime(3, 40, 25);
 	aTijd.setTime(3, 40, 20);
-	
-	// tijd.setTime(12, 30, 20);
-	// tijd.giveTime();
-	cout << tijd.equals(aTijd) << endl;
+
+	cout << aTijd.equals(tijd) << endl;
 	cin.get();
 }
 
